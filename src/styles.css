@@ -680,7 +680,7 @@ button:focus-visible {
   position: relative;
   width: 100%;
   padding: 0.6rem 1rem;
-  color: var(--ocean-ink);
+  color: #0b3040;
   font-size: 1rem;
   background: var(--coral);
 }

@@ -8,7 +8,7 @@ Core value: Francisco reconhece os tubarões, entende acerto/erro sem explicaç�
 
 - Phase: release v2
 - Status: implementation complete and verified
-- Progress: 100% do código, arte, áudio, testes, build e validação de navegador concluídos; primeiro push preparado
+- Progress: 100% do código, arte, áudio, testes, build e validação de navegador concluídos; repositório público e Pages habilitado
 
 ## Recent Decisions
 
@@ -29,11 +29,11 @@ Core value: Francisco reconhece os tubarões, entende acerto/erro sem explicaç�
 ## Deployment
 
 - Visibilidade pública confirmada no GitHub em 2026-07-09.
-- A tela de Pages exige o primeiro conteúdo no repositório antes de permitir selecionar GitHub Actions; habilitar após o primeiro push.
+- Fonte do GitHub Pages configurada como GitHub Actions após o primeiro push.
 - As oito narrações antigas foram preservadas e validadas tecnicamente, sem nova transcrição semântica.
 
 ## Session Continuity
 
 Last session: 2026-07-09
-Stopped at: release v2 completa, verificada e preparada para primeiro push; habilitar Pages e validar a URL pública em seguida.
+Stopped at: release v2 completa e verificada; Pages habilitado e novo deploy disparado pelo commit final.
 Resume file: none
