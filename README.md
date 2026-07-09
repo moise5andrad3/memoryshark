@@ -31,4 +31,4 @@ Esse comando executa lint, testes automatizados, checagem TypeScript e build de 
 
 O workflow em `.github/workflows/deploy.yml` verifica o projeto após cada push para `main`. Quando o repositório tiver GitHub Pages disponível, ele também publica a pasta `dist`; o build já usa a base `/memoryshark/`.
 
-Endereço planejado: <https://moise5andrad3.github.io/memoryshark/>.
+Jogue em: <https://moise5andrad3.github.io/memoryshark/>.

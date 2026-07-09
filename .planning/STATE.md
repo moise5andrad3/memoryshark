@@ -7,8 +7,8 @@ Core value: Francisco reconhece os tubarões, entende acerto/erro sem explicaç�
 ## Current Position
 
 - Phase: release v2
-- Status: implementation complete and verified
-- Progress: 100% do código, arte, áudio, testes, build e validação de navegador concluídos; repositório público e Pages habilitado
+- Status: complete, deployed and verified
+- Progress: 100% do código, arte, áudio, testes, build, navegador e publicação concluídos
 
 ## Recent Decisions
 
@@ -25,15 +25,17 @@ Core value: Francisco reconhece os tubarões, entende acerto/erro sem explicaç�
 - Chrome real: 360×640, 390×844, 843×390 e 568×320, sem overflow horizontal.
 - Fluxos reais: acerto, erro, bloqueio de terceiro clique, reset durante timer, áudio, teclado, oito pares e vitória.
 - Build de produção servido em `/memoryshark/`, com imagens/fontes carregadas e console sem erros.
+- URL pública validada em 390×844 no Chrome: 16 cartas, dupla, animação, áudio e assets sem erro.
 
 ## Deployment
 
 - Visibilidade pública confirmada no GitHub em 2026-07-09.
 - Fonte do GitHub Pages configurada como GitHub Actions após o primeiro push.
+- Workflow final `#2` aprovado no commit `b8993b1`; <https://moise5andrad3.github.io/memoryshark/> respondeu HTTP 200.
 - As oito narrações antigas foram preservadas e validadas tecnicamente, sem nova transcrição semântica.
 
 ## Session Continuity
 
 Last session: 2026-07-09
-Stopped at: release v2 completa e verificada; Pages habilitado e novo deploy disparado pelo commit final.
+Stopped at: release v2 publicada e validada de ponta a ponta; nenhuma pendência conhecida.
 Resume file: none
