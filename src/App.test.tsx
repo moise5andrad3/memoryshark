@@ -111,6 +111,10 @@ describe('App', () => {
       within(celebration).getByRole('heading', { name: firstShark.name }),
     ).toBeInTheDocument()
     expect(within(celebration).getByText(firstShark.fact)).toBeInTheDocument()
+    const cartoon = celebration.querySelector('[data-animated-shark]')
+    expect(cartoon).toHaveAttribute('data-shark-id', firstShark.id)
+    expect(cartoon?.querySelector('[data-part="tail"]')).toBeInTheDocument()
+    expect(cartoon?.querySelector('[data-part="fin"]')).toBeInTheDocument()
 
     act(() => {
       vi.advanceTimersByTime(CELEBRATION_DURATION_MS)

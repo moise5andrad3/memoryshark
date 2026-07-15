@@ -5,7 +5,7 @@ Jogo da memória infantil criado para o Francisco, pensado primeiro para celular
 ## O que há no jogo
 
 - tabuleiro simples de 16 cartas, sem cronômetro ou punição;
-- oito tubarões ilustrados e oito movimentos de comemoração;
+- oito tubarões ilustrados e oito desenhos animados articulados, com cauda, nadadeiras, olhos e movimentos próprios;
 - fatos curtos sobre cada espécie e áudio opcional;
 - controles grandes, navegação por teclado e nomes das cartas escondidos até serem abertas;
 - layout responsivo, inclusive em celular deitado;

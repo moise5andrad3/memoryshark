@@ -1,6 +1,7 @@
 import type { CSSProperties } from 'react'
 
 import type { Shark } from '../data/sharks'
+import { AnimatedShark } from './AnimatedShark'
 
 interface MatchCelebrationProps {
   shark: Shark
@@ -37,12 +38,8 @@ export function MatchCelebration({
       <div className="match-celebration__content">
         <p className="match-celebration__eyebrow">Você encontrou!</p>
         <div className="match-celebration__portal" aria-hidden="true">
-          <img
-            className="match-celebration__shark"
-            src={shark.image}
-            alt=""
-            draggable={false}
-          />
+          <div className="match-celebration__current" />
+          <AnimatedShark shark={shark} />
         </div>
         <h2 id={`celebration-title-${shark.id}`}>{shark.name}</h2>
         <p className="match-celebration__cheer">{shark.cheer}</p>
